@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Eurostile Title";
+    src: url(asset/font/Eurostile.ttf);
+}
+
+@font-face {
+    font-family: "Eurostile Text";
+    src: url(asset/fonts/eurostile-t.ttf);
+}
+
+@font-face {
+    font-family: "Eurostile Code";
+    src: url(asset/fonts/eurostile-mono-ef.otf);
+}
+
+body {
+    cursor: url("asset/cursor/gold.cur"), auto;
+    font-family: "Eurostile Text";
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #0d0e62;
+    padding:10px;
+}
+
+header img {
+    height: 90%;
+}
+
+h1 {
+    font-family: "Eurostile Title";
+    color: white;
+    font-size: 32px;
+}
+
+nav {
+    padding: 10px;
+    background: rgba(0, 89, 255, 0.089);
+    margin: 4px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;   
+    list-style: none;    
+    justify-content: space-around;     
+}
